@@ -33,3 +33,5 @@ The following commands are useful (assuming that the [Atlassian Plugin SDK](http
         zip -r ../upm-install-all.zip * -x README.markdown amps-standalone && \
         curl -uadmin:admin -F plugin-file=@../upm-install-all.zip http://localhost:1990/confluence/rest/speakeasy/1/plugins && \
         curl -uadmin:admin -F plugin-file=@../upm-install-all.zip http://localhost:2990/jira/rest/speakeasy/1/plugins
+
+Navigate to the Universal Plugin Manager, select the Install tab and you should see a new Advanced Options box.
