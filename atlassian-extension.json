@@ -3,8 +3,9 @@
 	"name":			"UPM Install All",
 	"description":	"Installs all plugins available",
 	"version":		"1",
-	
-	"vendor": {	"name": "Dan Hardiker",
-			     "url": "https://github.com/dhardiker/upm-install-all",
-		       "email": "dan@hardiker.co.uk" }
+	"vendor": 		{
+		"name": 		"Dan Hardiker",
+		"url": 			"https://github.com/dhardiker/upm-install-all",
+		"email": 		"dan@hardiker.co.uk"
+	}
 }

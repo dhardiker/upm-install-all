@@ -30,6 +30,6 @@ The following commands are useful (assuming that the [Atlassian Plugin SDK](http
      $ atlas-run-standalone --product jira
      $ atlas-run-standalone --product confluence --data-version 3.5
      $ rm ../upm-install-all.zip && \
-        zip -r ../upm-install-all.zip * -x README.markdown && \
+        zip -r ../upm-install-all.zip * -x README.markdown amps-standalone && \
         curl -uadmin:admin -F plugin-file=@../upm-install-all.zip http://localhost:1990/confluence/rest/speakeasy/1/plugins && \
         curl -uadmin:admin -F plugin-file=@../upm-install-all.zip http://localhost:2990/jira/rest/speakeasy/1/plugins
