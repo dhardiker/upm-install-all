@@ -1,0 +1,6 @@
+amps-standalone/target/confluence/home/database/confluencedb.lck
+amps-standalone/target/confluence/home/database/confluencedb.log
+amps-standalone/target/confluence/home/database/confluencedb.properties
+amps-standalone/target/confluence/home/database/confluencedb.script
+.DS_Store
+js/.DS_Store
